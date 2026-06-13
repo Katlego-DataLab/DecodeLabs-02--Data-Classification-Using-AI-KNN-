@@ -51,7 +51,7 @@ Real classification problems are messy. Here's how I broke this one down:
 ##  Key Technical Decisions
 
 **Why StandardScaler?**
-KNN calculates Euclidean distance between points. Without scaling, a feature with a range of 0–7 cm dominates over one with a range of 0–2 cm — even if the smaller feature is more informative. Scaling puts all features on equal footing.
+KNN calculates Euclidean distance between points. Without scaling, a feature with a range of 0–7 cm dominates over one with a range of 0–2 cm even if the smaller feature is more informative. Scaling puts all features on equal footing.
 
 **Why stratify the split?**
 With only 150 samples (50 per class), a random split could accidentally under-represent a class in the test set. `stratify=y` guarantees each class gets exactly 10 test samples.
