@@ -1,6 +1,6 @@
-# 🌸 Data Classification Using AI — KNN on Iris Dataset
+# 🌸 Data Classification Using AI, KNN on Iris Dataset
 
-> **DecodeLab Batch 2026 | Project 2 | Author: Katlego Mathebula**
+> **DecodeLab 25 May - 25 June 2026 | Project 2 | Author: Katlego Mathebula**
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square&logo=python)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-KNN-orange?style=flat-square&logo=scikit-learn)
@@ -64,7 +64,7 @@ Accuracy can be misleading on imbalanced datasets. F1 balances precision and rec
 
 ---
 
-## ⚙️ Pipeline Overview
+##  Pipeline Overview
 
 ```
 Raw Iris Data (150 samples, 4 features)
@@ -118,7 +118,7 @@ Real projects break. Here's what I ran into and fixed:
 
 ---
 
-## 💡 Future Improvements
+##  Future Improvements
 
 - Cross-validate with **k-fold** instead of a single train/test split for more robust evaluation
 - Try other classifiers — **Decision Tree**, **SVM**, **Random Forest**  and compare
@@ -150,7 +150,7 @@ Project 2-Data Classification Using AI/
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ```bash
 # Install dependencies
