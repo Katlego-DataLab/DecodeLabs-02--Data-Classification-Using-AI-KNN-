@@ -121,7 +121,7 @@ Real projects break. Here's what I ran into and fixed:
 ##  Future Improvements
 
 - Cross-validate with **k-fold** instead of a single train/test split for more robust evaluation
-- Try other classifiers — **Decision Tree**, **SVM**, **Random Forest**  and compare
+- Try other classifiers **Decision Tree**, **SVM**, **Random Forest**  and compare
 - Apply **PCA** to reduce to 2 components and visualise the full decision boundary
 - Test on a noisier, real-world dataset where K=1 would likely overfit
 
